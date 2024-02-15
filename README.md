@@ -1,0 +1,2 @@
+# jared
+ ejercicios de qt
