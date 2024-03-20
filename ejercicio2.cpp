@@ -9,4 +9,14 @@ void fun_c(double a, int n, double& promedio, double& suma) {
 
   promedio = suma / n;
 }
+int ejercicio2() {
+  double promedio = 0.0;
+  double suma = 0.0;
+  fun_c(5.0, 3, promedio, suma);
+
+  std::cout << "Suma: " << suma << std::endl;
+  std::cout << "Promedio: " << promedio << std::endl;
+
+  return 0;
+}
 
